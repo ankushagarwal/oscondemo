@@ -24,7 +24,9 @@ Request access to the cluster by providing your Google sign-in email address to 
 
 By this point, you should have a access to JupyterHub at https://kubeflow.endpoints.oscon2018-kubeflow.cloud.goog/hub/
 
-Go to jupyterhub and click on "Start my server". In the Image field, enter : `gcr.io/kubeflow-images-public/tensorflow-1.8.0-notebook-cpu:v0.2.1`
+Go to jupyterhub and click on "Start my server". In the Image field, enter : `gcr.io/agwlkubeflow/oscon2018demo-gpu`. In the `Extra Resource Limits`, specify `{"nvidia.com/gpu": 1}`
+
+This ensures that the spawned pod gets 1 GPU.
 
 Other fields are optional and can be left empty. Click on Spawn.
 
