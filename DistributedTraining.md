@@ -16,7 +16,7 @@ Ensure that you can run `kubectl get pods -nkubeflow`
 
 # Running a Tensorflow Distributed Training job
 
-Edit the tfjob.yaml file locally and add a name to the job. This name should be unique to you. You can use your `{username}-job` for the name of the job. Example: "ankushagarwal-job".
+Edit the [tfjob.yaml](tfjob.yaml) file locally and add a name to the job. This name should be unique to you. You can use your `{username}-job` for the name of the job. Example: "ankushagarwal-job".
 
 To submit the job, you can run
 
