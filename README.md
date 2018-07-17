@@ -48,7 +48,7 @@ menu, *New -> Terminal*. In the Terminal, clone this git repo by executing: `
 git clone https://github.com/ankushagarwal/oscondemo.git
 ```
 
-Now you should have all the code required to complete training in the `oscondemo/notebooks` folder. Navigate to this folder.
+Now you should have all the code required to complete training in the `oscondemo/notebooks` folder. Navigate to this folder in jupter notebook tree.
 Here you should see two files:
 
 *    `Training.ipynb`
