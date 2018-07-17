@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: download-jupyter-image
+  namespace: kubeflow
+spec:
+  selector:
+    matchLabels:
+      name: download-jupyter-image
+  template:
+    metadata:
+      labels:
+        name: download-jupyter-image
+    spec:
+      containers:
+      - name: download-jupyter-image-cpu
+        image: gcr.io/kubeflow-images-public/tensorflow-1.8.0-notebook-cpu:v0.2.1
+        command: ["sleep", "infinity"]
+      - name: download-jupyter-image-gpu
+        image: gcr.io/kubeflow-images-public/tensorflow-1.8.0-notebook-gpu:v0.2.1
+        command: ["sleep", "infinity"]
