@@ -13,7 +13,7 @@ By the end of this tutorial, you should learn how to:
 *   Spawn up a Jupyter Notebook on the kubeflow cluster
 *   Train a Sequence-to-Sequence model using TensorFlow and GPUs on the cluster
   * This is a tutorial on how to summarize text and generate features from Github Issues using deep learning with Keras and TensorFlow.
-*   Serve the model using [Seldon Core](https://github.com/SeldonIO/seldon-core/)
+*   Serve the model using [Seldon Core](https://github.com/SeldonIO/seldon-core/) on a kubernetes cluster.
 *   Query the model from a simple front-end application
 
 ## Access to the kubeflow cluster
